@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 980px;
   margin: 0 auto;
   clear: both;
 }
@@ -215,3 +215,10 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 768px) { 
+  .container {
+   background-color: blueviolet;
+   height:400px;
+       }
+   }

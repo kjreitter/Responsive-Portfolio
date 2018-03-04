@@ -132,3 +132,10 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
+
+@media screen and (max-width: 760px) { 
+  .container {
+   background-color: blueviolet;
+   height:400px;
+       }
+   }
