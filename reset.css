@@ -133,9 +133,15 @@ table {
   border-collapse: collapse;
 }
 
-@media screen and (max-width: 760px) { 
-  .container {
+@media screen and (max-width: 768px) { 
+  .body {
    background-color: blueviolet;
    height:400px;
        }
    }
+
+@media screen and (max-width: 320px) {
+  .body{
+    background-color: blue;
+  }
+}
