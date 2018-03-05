@@ -133,15 +133,22 @@ table {
   border-collapse: collapse;
 }
 
-@media screen and (max-width: 768px) { 
-  .body {
-   background-color: blueviolet;
-   height:400px;
+@media screen and (max-width: 760px) { 
+  body {
+   background-color: greenyellow;
+
        }
    }
 
-@media screen and (max-width: 320px) {
-  .body{
-    background-color: blue;
+   @media screen and ( max-width: 560px) {
+    h1 {
+      color: gold;
+      font-size: 30px;
+    }
   }
-}
+
+  @media screen and (max-width: 580px) {
+    nav {
+      font-size: 20px;
+    }
+  }

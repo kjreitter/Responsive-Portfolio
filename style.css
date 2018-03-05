@@ -215,10 +215,22 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+@media screen and (max-width: 760px) { 
+  body {
+   background-color: greenyellow;
 
-@media screen and (max-width: 768px) { 
-  .container {
-   background-color: blueviolet;
-   height:400px;
        }
    }
+
+@media screen and (max-width: 560px) {
+  h1 {
+    color: gold;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  nav {
+    font-size: 20px;
+  }
+}
